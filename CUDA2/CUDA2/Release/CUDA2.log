@@ -1,0 +1,28 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  D:\labs\CUDA2\CUDA2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"     --keep-dir Release  -maxrregcount=0  --machine 32 --compile -cudart static    -DWIN32 -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /FdRelease\vc142.pdb /FS   /MD " -o D:\labs\CUDA2\CUDA2\Release\main.cu.obj "D:\labs\CUDA2\CUDA2\main.cu" 
+  Deprecated data layout, must be:
+  64-bit: e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64
+  
+CUDACOMPILE : nvcc warning : Compiling in the 32-bit mode is deprecated and may not be supported in future releases
+  main.cu
+  Source.cpp
+D:\labs\CUDA2\CUDA2\Source.cpp(14,20): warning C4018: '<': signed/unsigned mismatch
+D:\labs\CUDA2\CUDA2\Source.cpp(25,20): warning C4018: '<': signed/unsigned mismatch
+D:\labs\CUDA2\CUDA2\Source.cpp(47,20): warning C4018: '<': signed/unsigned mismatch
+D:\labs\CUDA2\CUDA2\Source.cpp(53,46): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+D:\labs\CUDA2\CUDA2\Utils.h(22,21): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\labs\CUDA2\CUDA2\Source.cpp(45): message : see reference to function template instantiation 'T *GenerateArray<float>(int,bool)' being compiled
+          with
+          [
+              T=float
+          ]
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 151 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CUDA2.vcxproj -> D:\labs\CUDA2\Release\CUDA2.exe
