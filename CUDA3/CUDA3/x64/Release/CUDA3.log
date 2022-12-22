@@ -1,0 +1,10 @@
+﻿  Compiling CUDA source file GPU.cu...
+  
+  D:\labs\CUDA3\CUDA3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS   /MD " -o D:\labs\CUDA3\CUDA3\x64\Release\GPU.cu.obj "D:\labs\CUDA3\CUDA3\GPU.cu" 
+  GPU.cu
+  Generating code
+  0 of 28 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CUDA3.vcxproj -> D:\labs\CUDA3\x64\Release\CUDA3.exe
