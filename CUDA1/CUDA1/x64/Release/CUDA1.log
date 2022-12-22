@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  D:\labs\CUDA1\CUDA1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS   /MD " -o D:\labs\CUDA1\CUDA1\x64\Release\main.cu.obj "D:\labs\CUDA1\CUDA1\main.cu" 
+  main.cu
+D:\labs\CUDA1\CUDA1\main.cu(44): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  CUDA1.vcxproj -> D:\labs\CUDA1\x64\Release\CUDA1.exe

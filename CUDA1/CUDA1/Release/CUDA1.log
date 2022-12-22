@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  D:\labs\CUDA1\CUDA1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"     --keep-dir Release  -maxrregcount=0  --machine 32 --compile -cudart static    -DWIN32 -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /FdRelease\vc142.pdb /FS   /MD " -o D:\labs\CUDA1\CUDA1\Release\main.cu.obj "D:\labs\CUDA1\CUDA1\main.cu" 
+  Deprecated data layout, must be:
+  64-bit: e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64
+  
+CUDACOMPILE : nvcc warning : Compiling in the 32-bit mode is deprecated and may not be supported in future releases
+  main.cu
+D:\labs\CUDA1\CUDA1\main.cu(32): warning C4018: <: несоответствие типов со знаком и без знака
+D:\labs\CUDA1\CUDA1\main.cu(33): warning C4244: =: преобразование "size_t" в "float", возможна потеря данных
+D:\labs\CUDA1\CUDA1\main.cu(48): warning C4018: <: несоответствие типов со знаком и без знака
+  LINK : указан параметр /LTCG, но не требуется создание кода; удалите /LTCG из командной строки компоновки для повышения производительности компоновщика
+  CUDA1.vcxproj -> D:\labs\CUDA1\Release\CUDA1.exe
