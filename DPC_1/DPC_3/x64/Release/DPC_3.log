@@ -1,0 +1,100 @@
+﻿DPC_3.cpp(206,72): : warning : 'default_selector' is deprecated: Use the callable sycl::default_selector_v instead. [-Wdeprecated-declarations]
+      sycl::device my_device = device_type == "gpu" ? sycl::device(sycl::default_selector{}) : sycl::device(sycl::cpu_selector{});
+                                                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/device_selector.hpp(50,21): note: 'default_selector' has been explicitly marked deprecated here
+  class __SYCL_EXPORT __SYCL2020_DEPRECATED(
+                      ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(48,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+  #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(39,38): note: expanded from macro '__SYCL_DEPRECATED'
+  #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                       ^
+DPC_3.cpp(206,53): : warning : 'device' is deprecated: SYCL 1.2.1 device selectors are deprecated. Please use SYCL 2020 device selectors instead. [-Wdeprecated-declarations]
+      sycl::device my_device = device_type == "gpu" ? sycl::device(sycl::default_selector{}) : sycl::device(sycl::cpu_selector{});
+                                                      ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/device.hpp(64,3): note: 'device' has been explicitly marked deprecated here
+    __SYCL2020_DEPRECATED("SYCL 1.2.1 device selectors are deprecated. Please "
+    ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(48,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+  #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(39,38): note: expanded from macro '__SYCL_DEPRECATED'
+  #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                       ^
+DPC_3.cpp(206,113): : warning : 'cpu_selector' is deprecated: Use the callable sycl::cpu_selector_v instead. [-Wdeprecated-declarations]
+      sycl::device my_device = device_type == "gpu" ? sycl::device(sycl::default_selector{}) : sycl::device(sycl::cpu_selector{});
+                                                                                                                  ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/device_selector.hpp(74,21): note: 'cpu_selector' has been explicitly marked deprecated here
+  class __SYCL_EXPORT __SYCL2020_DEPRECATED(
+                      ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(48,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+  #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(39,38): note: expanded from macro '__SYCL_DEPRECATED'
+  #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                       ^
+DPC_3.cpp(206,94): : warning : 'device' is deprecated: SYCL 1.2.1 device selectors are deprecated. Please use SYCL 2020 device selectors instead. [-Wdeprecated-declarations]
+      sycl::device my_device = device_type == "gpu" ? sycl::device(sycl::default_selector{}) : sycl::device(sycl::cpu_selector{});
+                                                                                               ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/device.hpp(64,3): note: 'device' has been explicitly marked deprecated here
+    __SYCL2020_DEPRECATED("SYCL 1.2.1 device selectors are deprecated. Please "
+    ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(48,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+  #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(39,38): note: expanded from macro '__SYCL_DEPRECATED'
+  #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                       ^
+  4 warnings generated.
+DPC_3.cpp(206,72): : warning : 'default_selector' is deprecated: Use the callable sycl::default_selector_v instead. [-Wdeprecated-declarations]
+      sycl::device my_device = device_type == "gpu" ? sycl::device(sycl::default_selector{}) : sycl::device(sycl::cpu_selector{});
+                                                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/device_selector.hpp(50,21): note: 'default_selector' has been explicitly marked deprecated here
+  class __SYCL_EXPORT __SYCL2020_DEPRECATED(
+                      ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(48,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+  #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(39,38): note: expanded from macro '__SYCL_DEPRECATED'
+  #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                       ^
+DPC_3.cpp(206,53): : warning : 'device' is deprecated: SYCL 1.2.1 device selectors are deprecated. Please use SYCL 2020 device selectors instead. [-Wdeprecated-declarations]
+      sycl::device my_device = device_type == "gpu" ? sycl::device(sycl::default_selector{}) : sycl::device(sycl::cpu_selector{});
+                                                      ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/device.hpp(64,3): note: 'device' has been explicitly marked deprecated here
+    __SYCL2020_DEPRECATED("SYCL 1.2.1 device selectors are deprecated. Please "
+    ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(48,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+  #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(39,38): note: expanded from macro '__SYCL_DEPRECATED'
+  #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                       ^
+DPC_3.cpp(206,113): : warning : 'cpu_selector' is deprecated: Use the callable sycl::cpu_selector_v instead. [-Wdeprecated-declarations]
+      sycl::device my_device = device_type == "gpu" ? sycl::device(sycl::default_selector{}) : sycl::device(sycl::cpu_selector{});
+                                                                                                                  ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/device_selector.hpp(74,21): note: 'cpu_selector' has been explicitly marked deprecated here
+  class __SYCL_EXPORT __SYCL2020_DEPRECATED(
+                      ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(48,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+  #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(39,38): note: expanded from macro '__SYCL_DEPRECATED'
+  #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                       ^
+DPC_3.cpp(206,94): : warning : 'device' is deprecated: SYCL 1.2.1 device selectors are deprecated. Please use SYCL 2020 device selectors instead. [-Wdeprecated-declarations]
+      sycl::device my_device = device_type == "gpu" ? sycl::device(sycl::default_selector{}) : sycl::device(sycl::cpu_selector{});
+                                                                                               ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/device.hpp(64,3): note: 'device' has been explicitly marked deprecated here
+    __SYCL2020_DEPRECATED("SYCL 1.2.1 device selectors are deprecated. Please "
+    ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(48,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+  #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+                                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\20231~1.0\windows\bin-llvm\..\include\sycl/detail/defines_elementary.hpp(39,38): note: expanded from macro '__SYCL_DEPRECATED'
+  #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+                                       ^
+  4 warnings generated.
+icx-cl: : message : Note that use of '/Z7' without any optimization-level option will turn off most compiler optimizations similar to use of '/Od'; use '-Rno-debug-disables-optimization' to disable this remark [-Rdebug-disables-optimization]
+  DPC_3.vcxproj -> D:\DPC_1\x64\Release\DPC_3.exe
